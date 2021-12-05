@@ -1,0 +1,244 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.darkmode--activated body {
+  background-color: #171717;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+footer {
+  background-color: #171717;
+}
+
+.text-white {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar */
+.darkmode--activated .navbar {
+  background-color: #171717;
+}
+
+.navbar {
+  background-color: #BC2C3D;
+}
+
+.darkmode--activated .bg-card {
+  background-color: #171717 !important;
+}
+
+.bg-card {
+  background-color: #BC2C3D !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: #f1f1f1;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 28px;
+}
+
+.navbar-brand,
+.nav-link {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #f1f1f1;
+  background-image: url(/img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+
+.jumbotron .display-4 {
+  font-family: Viga;
+  color: #BC2C3D;
+  font-weight: 200;
+  text-shadow: 3px 5px 2px rgba(255, 255, 255, .2);
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+
+/* Beranda */
+.gmbr {
+  height: 240px;
+}
+
+a .gmbr {
+  transition: .5s ease;
+  filter: brightness(80%);
+}
+
+a:hover .gmbr {
+  filter: brightness(100%) !important;
+}
+
+.konten {
+  margin-top: 100px;
+  text-shadow: 0 2px 4px #000;
+}
+
+.kontenGaleri {
+  margin-top: 170px;
+  text-shadow: 0 2px 4px #000;
+}
+
+/* Tokoh Kerajaan */
+.card-kerajaan {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+  max-height: 200px;
+  border-radius: 15px;
+}
+
+/* Kerajaan */
+.thumbnails {
+  border-radius: 15px;
+}
+
+/* Galeri */
+.gambar {
+  max-height: 360px;
+  border-radius: 15px;
+}
+
+.dgambar {
+  max-height: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Kontak */
+.bradius {
+  border-radius: 12px;
+}
+
+.kontak {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  color: #F8F3E3;
+  padding: 30px;
+  min-height: 415px;
+  background-image: url(/img/Mask-Group.png);
+  background-size: cover;
+}
+
+.kontak h1 {
+  text-align: center;
+}
+
+.kontak h3 {
+  font-size: 22px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+/* Pagination */
+.pagination>li>a {
+  background-color: white;
+  color: #B32442;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #5a5a5a;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination>.active>a {
+  color: white;
+  background-color: #B32442 !Important;
+  border: solid 1px #B32442 !Important;
+}
+
+.pagination>.active>a:hover {
+  background-color: #B32442 !Important;
+  border: solid 1px #B32442;
+}
+
+.judul {
+  font-family: Viga;
+  color: #000;
+}
+
+/* KUIS */
+
+.modal-title,
+.modal-body {
+  color: #000;
+}
+
+/* Darkmode */
+.darkmode-toggle {
+  z-index: 2;
+}
+
+.darkmode--activated .card {
+  background-color: #171717;
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  color: black;
+}
+
+.darkmode--activated .muted {
+  color: #fff;
+}
+
+.muted {
+  color: #6c757d;
+}
+
+.darkmode--activated .search {
+  color: #fff;
+}
+
+.search {
+  color: #1A1B1B;
+}
+
+@media (min-width: 768px) {
+  .konten {
+    margin-top: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 350px;
+  }
+
+  .jumbotron .display-4 {
+    margin-top: 22px;
+    font-size: 62px;
+  }
+}

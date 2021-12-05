@@ -1,0 +1,3 @@
+function deleteSession() {
+  sessionStorage.clear();
+}

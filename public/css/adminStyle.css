@@ -1,0 +1,186 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F6F9;
+}
+
+/* Navbar */
+:root {
+  --offcanvas-width: 270px;
+  --topNavbarHeight: 62px;
+}
+
+.topbar {
+  background-color: #B32442;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 24px;
+}
+
+.history {
+  width: 25px;
+  height: 24px;
+}
+
+.adminNav {
+  font-size: 20px;
+}
+
+.sidebar-nav {
+  width: var(--offcanvas-width);
+}
+
+.offcanvas {
+  background-color: #B32442;
+}
+
+nav .sidenav {
+  font-family: viga;
+}
+
+/* End Navbar */
+
+main {
+  padding-top: calc(var(--topNavbarHeight)*2);
+}
+
+.bg-card {
+  text-transform: uppercase;
+  background-color: #042A38;
+  border-radius: 10px;
+}
+
+/* Galeri Admin */
+.gambar {
+  width: 100px;
+  border-radius: 4px;
+}
+
+
+/* Gambar Detail */
+.gambarKerajaan,
+.gambarTokoh,
+.gambarGaleri {
+  max-height: 500px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+}
+
+
+/* TABEL */
+.table>tbody>tr>* {
+  vertical-align: middle;
+}
+
+thead {
+  background-color: #042A38;
+}
+
+.nomor {
+  color: black;
+}
+
+th {
+  color: #FFFFFF;
+}
+
+tbody {
+  background-color: #FFFFFF;
+}
+
+.tambah {
+  color: #FFFFFF;
+  background: #042A38;
+  border-radius: 5px;
+}
+
+.detail {
+  color: #B32442;
+  background: #F7F5EB;
+  box-shadow:
+    3px 3px 6px #c1c1c1,
+    -3px -3px 6px #ffffff;
+  border-radius: 4px;
+}
+
+.edit,
+.hapus {
+  box-shadow:
+    3px 3px 6px #c1c1c1,
+    -3px -3px 6px #ffffff;
+}
+
+/* PAGINATION */
+.pagination>li>a {
+  background-color: white;
+  color: #B32442;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #5a5a5a;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination>.active>a {
+  color: white;
+  background-color: #B32442 !Important;
+  border: solid 1px #B32442 !Important;
+}
+
+.pagination>.active>a:hover {
+  background-color: #B32442 !Important;
+  border: solid 1px #B32442;
+}
+
+.ck-editor__editable_inline {
+  min-height: 150px;
+}
+
+@media (min-width:992px) {
+
+  body {
+    overflow: auto !important;
+  }
+
+  .tombol-tutup {
+    display: block;
+    visibility: hidden;
+  }
+
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+
+  .history {
+    width: 30px;
+    height: 24px;
+  }
+
+  .adminNav {
+    font-size: 32px;
+  }
+
+  main {
+    padding-top: 86px;
+    margin-left: var(--offcanvas-width);
+  }
+
+  .sidebar-nav {
+    transform: none;
+    visibility: visible !important;
+    top: var(--topNavbarHeight);
+    height: calc(100% - var(--topNavbarHeight));
+    z-index: 1;
+  }
+}
