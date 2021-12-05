@@ -1,4 +1,4 @@
-# CodeIgniter 4 Application Starter
+# CodeIgniter 4 Web Informasi Sejarah Hindu Budha
 
 ## What is CodeIgniter?
 
