@@ -2,4 +2,4 @@
 
 ## Installation & updates
 
-Clone or download this repo to xampp folder
+Clone or download this repo to xampp folder and install codeigniter 4

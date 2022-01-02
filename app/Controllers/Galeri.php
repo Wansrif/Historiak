@@ -16,8 +16,8 @@ class Galeri extends BaseController
     }
     
     $data = [
-      'title' => 'Galeri',
-      'galeri'  => $galeri->orderBy('id_galeri', 'DESC')->paginate(6, 'galeri'),
+      'title'       => 'Galeri',
+      'galeri'      => $galeri->orderBy('id_galeri', 'DESC')->paginate(6, 'galeri'),
       'pager'       => $this->galeriModel->pager,
       'currentPage' => $currentPage
     ];

@@ -58,7 +58,6 @@ class GaleriAdmin extends BaseController
   public function save()
   {
 $fileGambar = $this->request->getFile('gambar');
-dd($fileGambar);
     // validasi input
     if(!$this->validate([
       'judul' => [
