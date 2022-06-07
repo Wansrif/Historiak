@@ -12,7 +12,7 @@
               <h5 class="card-title"><?= $galeri['judul']; ?></h5>
               <?php 
                 $videoURL = str_replace("watch?v=", "embed/", $galeri['video']);
-                ?>
+              ?>
               <iframe class="card-text" src="<?= $videoURL; ?>" allow="picture-in-picture" allowfullscreen></iframe>
               <p class="card-text"><?= $galeri['isi']; ?></p>
               <p class="card-text"><small class="muted">Sumber : <b><?= $galeri['sumber']; ?></small></b></p>
